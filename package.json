@@ -1,0 +1,16 @@
+{
+  "name": "cv-studio",
+  "version": "1.0.0",
+  "description": "CV builder: browse templates, edit with a live preview, export PDF and Word.",
+  "main": "server/index.js",
+  "private": true,
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "engines": { "node": ">=18.17" },
+  "dependencies": {
+    "docx": "^9.5.0",
+    "puppeteer": "^24.0.0"
+  }
+}
